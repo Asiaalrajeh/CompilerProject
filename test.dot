@@ -1,0 +1,13 @@
+strict digraph "" {
+	"LexToken(LETTER,'a',1,0)"	[val=a];
+	"LexToken(STAR,'*',1,1)"	[val="*"];
+	"LexToken(STAR,'*',1,1)" -> "LexToken(LETTER,'a',1,0)";
+	"LexToken(LETTER,'n',1,2)"	[val=n];
+	"LexToken(CONCAT,'.',1,3)"	[val="."];
+	"LexToken(CONCAT,'.',1,3)" -> "LexToken(STAR,'*',1,1)";
+	"LexToken(CONCAT,'.',1,3)" -> "LexToken(LETTER,'n',1,2)";
+	"LexToken(LAMBDA,'$',1,4)"	[val="$"];
+	"LexToken(CONCAT,'.',1,5)"	[val="."];
+	"LexToken(CONCAT,'.',1,5)" -> "LexToken(CONCAT,'.',1,3)";
+	"LexToken(CONCAT,'.',1,5)" -> "LexToken(LAMBDA,'$',1,4)";
+}

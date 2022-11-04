@@ -1,0 +1,8 @@
+digraph "" {
+	START -> 12	[key=0];
+	12 -> 12	[key=0,
+		letter=a];
+	12 -> 3	[key=0,
+		final=True,
+		letter=n];
+}
