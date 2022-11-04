@@ -3,7 +3,7 @@ In this project a program was implemented using python that accepts a user's reg
 
  
 
-If convert to NFA is selected, the software will output the transition function, First and Final states, as well as the ability to convert the output NFA to DFA.[1] 
+If convert to NFA is selected, the software will output the transition function, First and Final states, as well as the ability to convert the output NFA to DFA.
 
 The alphabet recognized by this program is: 
 
@@ -17,7 +17,7 @@ The alphabet recognized by this program is:
 
 * '()' : grouping 
 
-If Convert Reg to DFA is selected, the program will read the regular expression from the 'input.txt' file and output two images, ast.png and dfa.png. One is of the regex's Abstract Syntax Tree (AST), while the other is of the resulting DFA.[2] 
+If Convert Reg to DFA is selected, the program will read the regular expression from the 'input.txt' file and output two images, ast.png and dfa.png. One is of the regex's Abstract Syntax Tree (AST), while the other is of the resulting DFA.
 
 The alphabet recognized by this program is: 
 
