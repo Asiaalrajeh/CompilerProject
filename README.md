@@ -1,5 +1,5 @@
 # CompilerProject
-In this part, a program was implemented using python that accepts a user's regular expression as input and allows the user to select whether to convert the input to NFA or DFA. 
+In this project a program was implemented using python that accepts a user's regular expression as input and allows the user to select whether to convert the input to NFA or DFA. 
 
  
 
